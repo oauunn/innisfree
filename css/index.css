@@ -254,7 +254,7 @@ body {
 }
 
 #footer .inner .right {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     gap: 20px;
 }
@@ -299,9 +299,9 @@ body {
     color: #9d9d9d;
 }
 
-#footer .inner .right button {
-    display: block;
-    padding: 10px;
+#footer .inner .right .btn a {
+    display: inline-flex;
+    padding: 10px 14px;
     background-color: #5b5b5b;
     color: #fff;
 }
