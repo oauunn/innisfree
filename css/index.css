@@ -204,102 +204,106 @@ body {
     font-weight: 500;
 }
 
-#footer .inner .left {
+#footer .inner .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+#footer .inner .bottom .left {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-#footer .inner .left .logo {
+#footer .inner .bottom .left .logo {
     width: 200px;
     opacity: 50%;
 }
 
-#footer .inner .left .logo img {
+#footer .inner .bottom .left .logo img {
     width: 100%;
     object-fit: cover;
 }
 
-#footer .inner .left .text-1 {
+#footer .inner .bottom .left .text-1 {
     font-weight: 300;
     color: #9d9d9d;
 }
 
-#footer .inner .left .text-1 li {
+#footer .inner .bottom .left .text-1 li {
     display: flex;
     gap: 10px;
 }
 
-#footer .inner .left .text-1 li>p>a:hover {
+#footer .inner .bottom .left .text-1 li>p>a:hover {
     color: #25AC76;
     text-decoration: underline;
 }
 
-#footer .inner .left .text-2 {
+#footer .inner .bottom .left .text-2 {
     font-weight: 500;
     color: #9d9d9d;
 }
 
-#footer .inner .left .text-2 li {
+#footer .inner .bottom .left .text-2 li {
     display: flex;
 }
 
-#footer .inner .left .text-2 li p:first-child {
+#footer .inner .bottom .left .text-2 li p:first-child {
     color: #222222;
 }
 
-#footer .inner .left .text-2 li:nth-child(2) {
+#footer .inner .bottom .left .text-2 li:nth-child(2) {
     color: #5b5b5b;
     text-decoration: underline;
 }
 
-#footer .inner .right {
+#footer .inner .bottom .right {
     display: inline-flex;
     flex-direction: column;
     gap: 20px;
 }
 
-#footer .inner .right .call {
+#footer .inner .bottom .right .call {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-#footer .inner .right .call strong {
+#footer .inner .bottom .right .call strong {
     font-size: 14px;
     font-weight: bold;
     color: #5b5b5b;
 }
 
-#footer .inner .right .call ul {
+#footer .inner .bottom .right .call ul {
     display: flex;
     gap: 10px;
     align-items: center;
 }
 
-#footer .inner .right .call ul h2 {
+#footer .inner .bottom .right .call ul h2 {
     font-size: 24px;
     font-weight: bold;
     color: #5b5b5b;
 }
 
-#footer .inner .right .call ul p {
+#footer .inner .bottom .right .call ul p {
     font-size: 12px;
     font-weight: 500;
     color: #5b5b5b;
 }
 
-#footer .inner .right .time {
+#footer .inner .bottom .right .time {
     display: flex;
     flex-direction: column;
 }
 
-#footer .inner .right .time p {
+#footer .inner .bottom .right .time p {
     font-size: 13px;
     color: #9d9d9d;
 }
 
-#footer .inner .right .btn a {
+#footer .inner .bottom .right .btn a {
     display: inline-flex;
     padding: 10px 14px;
     background-color: #5b5b5b;
