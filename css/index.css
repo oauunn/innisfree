@@ -249,6 +249,69 @@ body {
     object-fit: cover;
 }
 
+#main .inner .best {
+    margin-top: 200px;
+}
+#main .inner .best h1 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+}
+#main .inner .best .list {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 70px;
+}
+#main .inner .best .list .item {
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#main .inner .best .list .item img {
+    width: 100%;
+    object-fit: cover;
+}
+#main .inner .best .list .item .text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    line-height: 1.5;
+}
+#main .inner .best .list .item .text p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #303030;
+}
+#main .inner .best .list .item .text ul {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#main .inner .best .list .item .text ul h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222222;
+}
+#main .inner .best .list .item .text ul h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ff0000;
+}
+#main .inner .best .list .item .text ul h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #9d9d9d;
+    text-decoration: line-through;
+}
+#main .inner .best .list .item span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #303030;
+}
 
 
 /* footer */
