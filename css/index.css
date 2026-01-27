@@ -64,6 +64,10 @@
     font-display: swap;
 }
 
+
+
+
+
 body {
     width: 1920px;
     margin: 0;
@@ -84,6 +88,11 @@ body {
     width: 100%;
 }
 
+
+
+
+
+/* header */
 #header .inner {
     display: flex;
     justify-content: space-between;
@@ -149,6 +158,13 @@ body {
     width: 100%;
     object-fit: cover;
 }
+
+
+
+
+
+
+
 
 
 
@@ -251,6 +267,7 @@ body {
 
 #main .inner .best {
     margin-top: 200px;
+    margin-bottom: 200px;
 }
 #main .inner .best h1 {
     font-size: 32px;
@@ -312,6 +329,14 @@ body {
     font-weight: 500;
     color: #303030;
 }
+
+
+
+
+
+
+
+
 
 
 /* footer */
