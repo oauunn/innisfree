@@ -181,10 +181,23 @@ body {
 #main .inner .card-banner {
     display: flex;
     justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+}
+#main .inner .card-banner li:first-child {
+    width: 723px;
+    height: 70px;
+    padding-left: 40px;
+    line-height: 70px;
+    background-color: #001EFF;
+    color: #fff;
 }
 #main .inner .card-banner li {
-    padding: 20px 200px;
-    background-color: #001EFF;
+    width: 723px;
+    height: 70px;
+    padding-left: 40px;
+    line-height: 70px;
+    background-color: #00A8A5;
     color: #fff;
 }
 
