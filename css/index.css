@@ -70,7 +70,7 @@
 
 body {
     width: 1920px;
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Pretendard', 'Noto Sans KR';
     background-color: #f5f5f5;
     color: #222222;
@@ -343,7 +343,42 @@ body {
     color: #303030;
 }
 
+#main .inner .event {}
+#main .inner .event .list {}
+#main .inner .event .list .item {}
+#main .inner .event .list .item img {}
 
+#main .inner .recommend {}
+#main .inner .recommend h1 {}
+#main .inner .recommend .list {}
+#main .inner .recommend .list .item {}
+
+#main .inner .ai {
+    height: 120px;
+    border-radius: 20px;
+    background-color: #00A260;
+    color: #fff;
+    text-align: center;
+}
+#main .inner .ai ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#main .inner .ai ul p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+#main .inner .ai ul a {
+    display: block;
+    width: 197px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 30px;
+    background-color: #004126;
+}
 
 
 
