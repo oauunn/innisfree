@@ -170,11 +170,72 @@ body {
     color: #fff;
 }
 
-#main .inner .sale {}
+#main .inner .sale {
+    margin-top: 100px;
+}
 
-#main .inner .sale .list {}
+#main .inner .sale .list {
+    display: flex;
+    justify-content: space-between;
+}
 
-#main .inner .sale .list .item {}
+#main .inner .sale .list .item {
+    width: 456px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#main .inner .sale .list .item .top {}
+#main .inner .sale .list .item .top img {
+    width: 100%;
+    object-fit: cover;
+}
+#main .inner .sale .list .item .top strong {}
+#main .inner .sale .list .item .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+#main .inner .sale .list .item .bottom a > img {
+    width: 66px;
+    object-fit: cover;
+}
+#main .inner .sale .list .item .bottom .text {
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 1.5;
+}
+#main .inner .sale .list .item .bottom .text p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+}
+#main .inner .sale .list .item .bottom .text ul {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+#main .inner .sale .list .item .bottom .text ul h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222222;
+}
+#main .inner .sale .list .item .bottom .text ul h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ff0000;
+}
+#main .inner .sale .list .item .bottom .text ul h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #9d9d9d;
+    text-decoration: line-through;
+}
+#main .inner .sale .list .item .bottom .icon img {
+    width: 25px;
+    object-fit: cover;
+}
 
 
 
