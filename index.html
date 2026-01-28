@@ -6,7 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>이니스프리 innisfree</title>
     <link rel="stylesheet" href="css/index.css">
-
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const mainSwiper = new Swiper('.main-visual', {
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
 </head>
 
 <body>
@@ -52,12 +68,23 @@
         </div><!-- .inner end -->
     </section><!-- #header end -->
 
+    <section id="main-visual swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/visual1.jpg" alt="메인비주얼1">
+            </div><!-- .swiper-slide end -->
+            <div class="swiper-slide">
+                <img src="img/visual2.jpeg" alt="메인비주얼2">
+            </div><!-- .swiper-slide end -->
+            <div class="swiper-slide">
+                <img src="img/visual3.jpeg" alt="메인비주얼3">
+            </div><!-- .swiper-slide end -->
+        </div><!-- .swiper-wrapper end -->
+        <div class="swiper-pagination"></div><!-- .swiper-pagination end -->
+    </section><!-- #main-visual swiper end -->
+
     <section id="main">
         <div class="inner">
-
-            <div class="main-visual">
-                <img src="img/visau.jpg" alt="메인비주얼">
-            </div><!-- .main-visual end -->
 
             <ul class="card-banner">
                 <li>삼성카드 5천원 결제 혜택 ✅</li>
@@ -469,7 +496,8 @@
                     </div><!-- .item end -->
 
                     <div class="item">
-                        <a href="#"><img src="img/[대용량] 블랙티 앰플 대용량 스페셜 세트  미백 탄력케어 피부결 보습.jpg" alt="블랙티앰플대용량스페셜세트미백탄력케어피부결보습"></a>
+                        <a href="#"><img src="img/[대용량] 블랙티 앰플 대용량 스페셜 세트  미백 탄력케어 피부결 보습.jpg"
+                                alt="블랙티앰플대용량스페셜세트미백탄력케어피부결보습"></a>
                         <div class="text">
                             <p><strong>BEST</strong>&nbsp;[대용량] 블랙티 앰플 대용량 스페셜 세트 / 미백 탄력케어 피부결 보습</p>
                             <ul>
@@ -512,7 +540,7 @@
                         </ul><!-- .tag end -->
                         <span>★ 4.9 (999+)</span>
                     </div><!-- .item end -->
-                    
+
                     <div class="item">
                         <a href="#"><img src="img/그린티 히알루론산 수분 선세럼 50mL X 2개.jpg" alt="그린티히알루론산수분선세럼"></a>
                         <div class="text">
