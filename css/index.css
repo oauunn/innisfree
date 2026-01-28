@@ -400,10 +400,12 @@ body {
     font-weight: bold;
     line-height: 1.5;
     text-align: center;
+    color: #222222;
 }
 
 #main .inner .recommend .list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
