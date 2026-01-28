@@ -178,6 +178,12 @@ body {
     padding: 0;
 }
 
+#main .inner .main-visual {
+    display: none;
+}
+
+#main .inner .main-visual img {}
+
 #main .inner .card-banner {
     display: flex;
     justify-content: space-between;
@@ -401,7 +407,75 @@ body {
     justify-content: space-between;
 }
 
-#main .inner .recommend .list .item {}
+#main .inner .recommend .list .item {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#main .inner .recommend .list .item img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#main .inner .recommend .list .item .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#main .inner .recommend .list .item .text p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#main .inner .recommend .list .item .text ul {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    line-height: 1.5;
+}
+
+#main .inner .recommend .list .item .text ul h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222222;
+}
+
+#main .inner .recommend .list .item .text ul h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ff0000;
+}
+
+#main .inner .recommend .list .item .text ul h5 {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: line-through;
+    color: #9d9d9d;
+}
+
+#main .inner .recommend .list .item .tag {
+    display: flex;
+    gap: 10px;
+}
+
+#main .inner .recommend .list .item .tag li {
+    display: inline-block;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #25AC76;
+    background-color: #EDFFF8;
+}
+
+#main .inner .recommend .list .item span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #303030;
+}
 
 #main .inner .ai {
     margin-top: 200px;
