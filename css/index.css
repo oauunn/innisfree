@@ -184,6 +184,7 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
+
 #main .inner .card-banner li:first-child {
     width: 723px;
     height: 70px;
@@ -192,6 +193,7 @@ body {
     background-color: #001EFF;
     color: #fff;
 }
+
 #main .inner .card-banner li {
     width: 723px;
     height: 70px;
@@ -216,15 +218,18 @@ body {
     flex-direction: column;
     gap: 40px;
 }
+
 #main .inner .sale .list .item .top {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
+
 #main .inner .sale .list .item .top img {
     width: 100%;
     object-fit: cover;
 }
+
 #main .inner .sale .list .item .top strong {
     font-size: 20px;
     color: #222222;
@@ -232,14 +237,17 @@ body {
     padding-bottom: 30px;
     border-bottom: 1px solid #9d9d9d;
 }
+
 #main .inner .sale .list .item .bottom {
     display: flex;
     justify-content: space-between;
 }
-#main .inner .sale .list .item .bottom a > img {
+
+#main .inner .sale .list .item .bottom a>img {
     width: 66px;
     object-fit: cover;
 }
+
 #main .inner .sale .list .item .bottom .text {
     width: 310px;
     display: flex;
@@ -247,32 +255,38 @@ body {
     gap: 10px;
     line-height: 1.5;
 }
+
 #main .inner .sale .list .item .bottom .text p {
     font-size: 16px;
     font-weight: 500;
     color: #222222;
 }
+
 #main .inner .sale .list .item .bottom .text ul {
     display: flex;
     gap: 5px;
     align-items: center;
 }
+
 #main .inner .sale .list .item .bottom .text ul h3 {
     font-size: 16px;
     font-weight: bold;
     color: #222222;
 }
+
 #main .inner .sale .list .item .bottom .text ul h4 {
     font-size: 14px;
     font-weight: 500;
     color: #ff0000;
 }
+
 #main .inner .sale .list .item .bottom .text ul h5 {
     font-size: 14px;
     font-weight: 500;
     color: #9d9d9d;
     text-decoration: line-through;
 }
+
 #main .inner .sale .list .item .bottom .icon img {
     width: 25px;
     object-fit: cover;
@@ -282,12 +296,14 @@ body {
     margin-top: 200px;
     margin-bottom: 200px;
 }
+
 #main .inner .best h1 {
     font-size: 32px;
     font-weight: bold;
     line-height: 1.5;
     text-align: center;
 }
+
 #main .inner .best .list {
     margin-top: 100px;
     display: flex;
@@ -295,62 +311,96 @@ body {
     flex-wrap: wrap;
     row-gap: 70px;
 }
+
 #main .inner .best .list .item {
     width: 288px;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
+
 #main .inner .best .list .item img {
     width: 100%;
     object-fit: cover;
 }
+
 #main .inner .best .list .item .text {
     display: flex;
     flex-direction: column;
     gap: 5px;
     line-height: 1.5;
 }
+
 #main .inner .best .list .item .text p {
     font-size: 16px;
     font-weight: 500;
     color: #303030;
 }
+
 #main .inner .best .list .item .text ul {
     display: flex;
     gap: 10px;
     align-items: center;
 }
+
 #main .inner .best .list .item .text ul h3 {
     font-size: 20px;
     font-weight: bold;
     color: #222222;
 }
+
 #main .inner .best .list .item .text ul h4 {
     font-size: 18px;
     font-weight: 500;
     color: #ff0000;
 }
+
 #main .inner .best .list .item .text ul h5 {
     font-size: 14px;
     font-weight: 500;
     color: #9d9d9d;
     text-decoration: line-through;
 }
+
 #main .inner .best .list .item span {
     font-size: 14px;
     font-weight: 500;
     color: #303030;
 }
 
-#main .inner .event {}
+
+
+
+#main .inner .event {
+    display: none;
+}
+
 #main .inner .event .list {}
+
 #main .inner .event .list .item {}
+
 #main .inner .event .list .item img {}
 
-#main .inner .recommend {}
-#main .inner .recommend h1 {}
-#main .inner .recommend .list {}
+
+
+
+#main .inner .recommend {
+    margin-top: 200px;
+}
+
+#main .inner .recommend h1 {
+    margin-bottom: 100px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#main .inner .recommend .list {
+    display: flex;
+    justify-content: space-between;
+}
+
 #main .inner .recommend .list .item {}
 
 #main .inner .ai {
@@ -362,6 +412,7 @@ body {
     text-align: center;
     color: #fff;
 }
+
 #main .inner .ai ul {
     display: inline-flex;
     gap: 20px;
@@ -374,6 +425,7 @@ body {
     font-weight: 600;
     line-height: 1.5;
 }
+
 #main .inner .ai ul a {
     display: block;
     width: 197px;
@@ -427,6 +479,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
 #footer .inner .bottom .left {
     display: flex;
     flex-direction: column;
