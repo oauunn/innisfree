@@ -354,16 +354,19 @@ body {
 #main .inner .recommend .list .item {}
 
 #main .inner .ai {
+    margin-top: 200px;
     height: 120px;
+    line-height: 120px;
     border-radius: 20px;
     background-color: #00A260;
-    color: #fff;
     text-align: center;
+    color: #fff;
 }
 #main .inner .ai ul {
-    display: flex;
+    display: inline-flex;
     gap: 20px;
     align-items: center;
+    text-align: center;
 }
 
 #main .inner .ai ul p {
