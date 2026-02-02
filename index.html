@@ -8,21 +8,6 @@
     <link rel="stylesheet" href="css/index.css">
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-        const mainSwiper = new Swiper('.main-visual', {
-            loop: true,
-            autoplay: {
-                delay: 3000,
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-        });
-    </script>
 </head>
 
 <body>
@@ -68,7 +53,7 @@
         </div><!-- .inner end -->
     </section><!-- #header end -->
 
-    <section id="main-visual swiper">
+    <section id="main-visual" class="swiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <img src="img/visual1.jpg" alt="메인비주얼1">
@@ -655,6 +640,26 @@
             </div><!-- .bottom end -->
         </div><!-- .inner end -->
     </section><!-- #footer end -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Swiper Init -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const mainSwiper = new Swiper('#main-visual', {
+                loop: true,
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '#main-visual .swiper-pagination',
+                    clickable: true,
+                },
+            });
+        });
+    </script>
 </body>
 
 </html>
